@@ -26,5 +26,5 @@ if bootanswer == "y":
     subprocess.call ("sudo java -jar nukkit.jar", shell=True)
 if bootanswer == "n":
     print ("Ok you will have to start up Nukkit by yourself by running 'java -jar nukkit.jar'.")
-else:
+elif:
     print ("Make sure you are typing a valid command!")
